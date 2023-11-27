@@ -1,0 +1,42 @@
+/* Styling for the resume and contact me tags */
+
+.grid1 {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.grid1 a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: Add border for styling */
+    margin: 5px; /* Optional: Add margin for spacing */
+    color: #333; /* Optional: Add color for text */
+}
+
+
+
+/* Styling for the projects */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.project {
+    border: 1px solid #ddd; /* Optional: Add border for styling */
+    padding: 10px; /* Optional: Add padding for styling */
+}
+
+/* Styling for the footer */
+
+footer {
+    background-color: #333;
+    /* Background color of the footer */
+    color: #fff;
+    /* Text color in the footer */
+    text-align: center;
+    /* Center-align text in the footer */
+    padding: 20px;
+    /* Add some padding for spacing */
+}
