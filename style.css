@@ -1,3 +1,20 @@
+/* Styling for the title */
+
+h1{
+    color: purple;
+}
+
+
+
+/* Styling for the about section at the top */
+
+p{
+    color: green;
+}
+
+
+
+
 /* Styling for the resume and contact me tags */
 
 .grid1 {
@@ -15,7 +32,7 @@
 
 
 
-/* Styling for the projects */
+/* Styling for the projects will need to add links eventually */
 
 .grid-container {
     display: grid;
@@ -26,6 +43,7 @@
 .project {
     border: 1px solid #ddd; /* Optional: Add border for styling */
     padding: 10px; /* Optional: Add padding for styling */
+    color: blue;
 }
 
 /* Styling for the footer */
@@ -39,4 +57,11 @@ footer {
     /* Center-align text in the footer */
     padding: 20px;
     /* Add some padding for spacing */
+}
+
+/* Styling for the links to resume and contactpage */
+
+#toplink{
+    color: red;
+
 }
