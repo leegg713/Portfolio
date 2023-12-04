@@ -1,15 +1,72 @@
-/* Styling for the title */
-
-h1{
+/* Styling for the title which is currently my name and contact information */
+h1 {
     color: purple;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
 
 /* Styling for the about section at the top */
 
-p{
+p {
     color: green;
+}
+
+
+/* Link styling for all links */
+a {
+    color: gold;
+}
+
+/* To Do List Picture Styling */
+
+#todolist {
+    width: 400px;
+
+}
+
+/* Styling for the top pictures on the page to fit right */
+
+.image-container {
+    display: inline-block;
+    /* Display containers inline to make them side by side */
+    margin: 10px;
+    /* Add some margin for spacing */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 30vh;
+    object-fit: contain;
+}
+
+
+/* Styling for fishing picture */
+#fishing {
+    float: left;
+    /* Float the fishing image to the left */
+    width: 30%;
+    /* Take up 50% of the width */
+    height: auto;
+    max-height: 30vh;
+    /* Limit the height */
+    object-fit: contain;
+    /* Maintain aspect ratio and fit within the container */
+}
+
+/* Styling for basketball picture */
+#basketball {
+    float: right;
+    /* Float the basketball image to the right */
+    width: 30%;
+    /* Take up 50% of the width */
+    height: auto;
+    max-height: 30vh;
+    /* Limit the height */
+    object-fit: contain;
+    /* Maintain aspect ratio and fit within the container */
 }
 
 
@@ -19,15 +76,19 @@ p{
 
 .grid1 {
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
+    justify-content: space-between;
+    /* Adjust as needed */
 }
 
 .grid1 a {
     text-decoration: none;
     padding: 10px;
-    border: 1px solid #ddd; /* Optional: Add border for styling */
-    margin: 5px; /* Optional: Add margin for spacing */
-    color: #333; /* Optional: Add color for text */
+    border: 1px solid #ddd;
+    /* Optional: Add border for styling */
+    margin: 5px;
+    /* Optional: Add margin for spacing */
+    color: #333;
+    /* Optional: Add color for text */
 }
 
 
@@ -37,12 +98,15 @@ p{
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px; /* Adjust the gap as needed */
+    gap: 10px;
+    /* Adjust the gap as needed */
 }
 
 .project {
-    border: 1px solid #ddd; /* Optional: Add border for styling */
-    padding: 10px; /* Optional: Add padding for styling */
+    border: 1px solid #ddd;
+    /* Optional: Add border for styling */
+    padding: 10px;
+    /* Optional: Add padding for styling */
     color: blue;
 }
 
@@ -61,7 +125,13 @@ footer {
 
 /* Styling for the links to resume and contactpage */
 
-#toplink{
+#toplink {
     color: red;
 
+}
+
+/* Styling for the project paragraphs text */
+
+#project-text {
+    color: purple;
 }
