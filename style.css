@@ -3,6 +3,7 @@ h1 {
     color: purple;
     text-align: center;
     margin-bottom: 20px;
+    border: 20px solid black; /* Set the border style and color */
 }
 
 
@@ -53,6 +54,7 @@ a {
     max-height: 30vh;
     /* Limit the height */
     object-fit: contain;
+    background-size: cover;
     /* Maintain aspect ratio and fit within the container */
 }
 
@@ -66,6 +68,7 @@ a {
     max-height: 30vh;
     /* Limit the height */
     object-fit: contain;
+    background-size: cover;
     /* Maintain aspect ratio and fit within the container */
 }
 
@@ -123,11 +126,18 @@ footer {
     /* Add some padding for spacing */
 }
 
-/* Styling for the links to resume and contactpage */
+/* Styling for the links to resume and aboutpage */
 
-#toplink {
+#resume-link {
     color: red;
 
+}
+#about-link{
+    color: yellow;
+}
+
+#portfolio-link{
+color: blue;
 }
 
 /* Styling for the project paragraphs text */
