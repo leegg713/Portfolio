@@ -1,11 +1,27 @@
 /* Container for the header */
 .header-container {
-
+    /* This will style the header to have space between the a tags */
+    padding-bottom: 30%;
     margin: 0 auto;
     /* Center the container */
 }
 
+/* Image on home page styling */
 
+/* Styling for the images */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; /* Add margin for spacing */
+    align-items: center;
+}
+
+.image-container img {
+    width: 48%; /* Set the width of each image */
+    height: 150%;
+    
+    object-fit: cover;
+}
 
 
 
@@ -17,10 +33,7 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
     border: 2px solid black;
-    /* Set the border style and color */
-    background: url('fishing.jpg') left center no-repeat, url('basketball.jpg') right center no-repeat;
-    background-size: 20% auto;
-    /* Adjust the size as needed */
+
 }
 
 /* Styling for the about section at the top */
