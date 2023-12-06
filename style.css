@@ -3,10 +3,10 @@ h1 {
     color: purple;
     text-align: center;
     margin-bottom: 20px;
-    border: 20px solid black; /* Set the border style and color */
+    border: 2px solid black; /* Set the border style and color */
+    background: url('fishing.jpg') left center no-repeat, url('basketball.jpg') right center no-repeat;
+    background-size: 20% auto; /* Adjust the size as needed */
 }
-
-
 
 /* Styling for the about section at the top */
 
@@ -14,66 +14,10 @@ p {
     color: green;
 }
 
-
 /* Link styling for all links */
 a {
     color: gold;
 }
-
-/* To Do List Picture Styling */
-
-#todolist {
-    width: 400px;
-
-}
-
-/* Styling for the top pictures on the page to fit right */
-
-.image-container {
-    display: inline-block;
-    /* Display containers inline to make them side by side */
-    margin: 10px;
-    /* Add some margin for spacing */
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-    max-height: 30vh;
-    object-fit: contain;
-}
-
-
-/* Styling for fishing picture */
-#fishing {
-    float: left;
-    /* Float the fishing image to the left */
-    width: 30%;
-    /* Take up 50% of the width */
-    height: auto;
-    max-height: 30vh;
-    /* Limit the height */
-    object-fit: contain;
-    background-size: cover;
-    /* Maintain aspect ratio and fit within the container */
-}
-
-/* Styling for basketball picture */
-#basketball {
-    float: right;
-    /* Float the basketball image to the right */
-    width: 30%;
-    /* Take up 50% of the width */
-    height: auto;
-    max-height: 30vh;
-    /* Limit the height */
-    object-fit: contain;
-    background-size: cover;
-    /* Maintain aspect ratio and fit within the container */
-}
-
-
-
 
 /* Styling for the resume and contact me tags */
 
@@ -90,27 +34,10 @@ a {
     /* Optional: Add border for styling */
     margin: 5px;
     /* Optional: Add margin for spacing */
-    color: #333;
+    color: black;
+    /* Button background color */
+    background-color: black;
     /* Optional: Add color for text */
-}
-
-
-
-/* Styling for the projects will need to add links eventually */
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    /* Adjust the gap as needed */
-}
-
-.project {
-    border: 1px solid #ddd;
-    /* Optional: Add border for styling */
-    padding: 10px;
-    /* Optional: Add padding for styling */
-    color: blue;
 }
 
 /* Styling for the footer */
@@ -126,18 +53,18 @@ footer {
     /* Add some padding for spacing */
 }
 
-/* Styling for the links to resume and aboutpage */
+/* Styling for the links to resume and about page */
 
 #resume-link {
     color: red;
-
 }
-#about-link{
+
+#about-link {
     color: yellow;
 }
 
-#portfolio-link{
-color: blue;
+#portfolio-link {
+    color: blue;
 }
 
 /* Styling for the project paragraphs text */
