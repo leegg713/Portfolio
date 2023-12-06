@@ -1,7 +1,8 @@
 /* Container for the header */
-.header-container{
-    
-    margin: 0 auto; /* Center the container */
+.header-container {
+
+    margin: 0 auto;
+    /* Center the container */
 }
 
 
@@ -12,6 +13,7 @@
 /* Styling for the title which is currently my name and contact information */
 h1 {
     color: purple;
+    font-size: 4em;
     text-align: center;
     margin-bottom: 20px;
     border: 2px solid black;
@@ -41,6 +43,8 @@ a {
 }
 
 .grid1 a {
+    font-size: 2em;
+    /* Set the font size to 1.2 times the default size */
     text-decoration: none;
     padding: 10px;
     border: 1px solid #ddd;
@@ -59,6 +63,7 @@ a {
 /* Styling for the footer */
 
 footer {
+    font-size: 1.5em;
     background-color: #333;
     /* Background color of the footer */
     color: #fff;
@@ -78,6 +83,8 @@ a {
 }
 
 .coverlink {
+    font-size: 1.2em;
+    /* Set the font size to 1.2 times the default size */
     color: red;
     opacity: 0;
     /* Start with opacity 0 */
