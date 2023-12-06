@@ -43,8 +43,8 @@ body {
 .image-container img {
     width: 48%; /* Set the width of each image */
     height: 150%;
-    
     object-fit: cover;
+    
 }
 
 
