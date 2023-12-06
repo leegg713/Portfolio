@@ -1,3 +1,27 @@
+/* Body formatting with will be a background animation */
+
+/* Add these styles to your existing CSS file */
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
 /* Container for the header */
 .header-container {
     /* This will style the header to have space between the a tags */
@@ -29,7 +53,7 @@
 /* Styling for the title which is currently my name and contact information */
 h1 {
     color: purple;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     margin-bottom: 20px;
     border: 2px solid black;
